@@ -1,0 +1,99 @@
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7CCD7C;
+  font-family: Helvetica;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #90EE90;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+ul li {
+  list-style-type: none;
+  border-right: 1px solid black;
+}
+
+ul li:last-child {
+  border: 0px;
+}
+
+.conteudo {
+  width: 50%;
+  height: 393px;
+  background-color: white;
+  border: none;
+  border-radius: 10px 10px;
+  float: left;
+  margin-top: 55px;
+}
+
+.conteudo img {
+  float: right;
+  width: 575px;
+  height: 415px;
+}
+
+.cabecalho h1 {
+  font-family: Helvetica;
+  color: black;
+  font-size: 38px;
+  margin-block-end: auto;
+
+}
+
+.cabecalho h3 {
+  font-family: Helvetica;
+  color: black;
+  font-size: 20px;
+  margin: auto;
+}
+
+.container {
+  margin-top: 85px;
+}
+
+button {
+  background-color: #7CCD7C; 
+  border-radius: 20px;
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  border: none;
+  font-family: Helvetica;
+  font-size: 25px;
+  width: 425px;
+  height: 72px;
+}
+button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(90deg, #f05524, #9fbc44, #008dbb);
+}
+
+hr {
+  color: black;
+  width: 50%;
+}
