@@ -54,7 +54,13 @@ h2 h1 {
   background-color: white;
 }
 
+.imagens {
+  text-align: center;
+}
 
+.imagens h2 {
+  margin: 20px;
+}
 .footer {
   bottom: 0px;
   width: 100%;
