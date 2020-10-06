@@ -88,6 +88,13 @@ button {
   width: 425px;
   height: 72px;
 }
+
+.button a {
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica;
+}
+
 button:hover {
   cursor: pointer;
   background-image: linear-gradient(90deg, #f05524, #9fbc44, #008dbb);
