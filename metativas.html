@@ -8,12 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="slide.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
 <body>
-    <ul class="topnav">
-        <li><a href="inicio.html"> RMATIVAS-EaD </a></li>
-    </ul>
+  <ul class="topnav">
+    <li><a href="inicio.html"> RMATIVAS-EaD </a></li>
+</ul>
 
     <main role="main" class="container">
         <div class="row">
@@ -122,7 +123,12 @@
             experiência do aluno e despertem todos os seus sentidos, assim, aprender torna-se uma aventura e 
             todos são desafiados a pesquisar, criar e realizar. 
             </p>
-            <p>
+            <br>
+            <div class="pdf">
+              <iframe src="https://drive.google.com/file/d/10eouj8BrCkP4wRHVPtw9Zj56GVrGrqkE/preview" width="640" height="480"></iframe>
+            </div>
+            <br>
+            <p class="citacao">
             Centradas no aluno, as Metodologias Ativas servem de base, para o alcance de patamares maiores no 
             processo de construção do conhecimento (MORÁN, 2015). Neste sentido, reúnem um conjunto de estratégias de 
             ensino, que envolvem o aluno em um ambiente de aprendizagem “flexível, interligado e híbrido” 
@@ -130,61 +136,62 @@
             </p>
             </div>
             <br>
+           <div class="slides">
+            
+                     
+            </div> 
 
-            <div id="slider">
-              <input type="radio" name="slider" id="slide1" checked>
-              <input type="radio" name="slider" id="slide2">
-              <input type="radio" name="slider" id="slide3">
-              <input type="radio" name="slider" id="slide4">
-              <div id="slides">
-                 <div id="overflow">
-                    <div class="inner">
-                       <div class="slide slide_1">
-                          <div class="slide-content">
-                             <img src="slide1.png" style="width: 100%;">                        
-                          </div>
-                       </div>
-                       <div class="slide slide_2">
-                          <div class="slide-content">
-                             <img src="slide2.png" style="width: 100%;">
-                          </div>
-                       </div>
-                       <div class="slide slide_3">
-                          <div class="slide-content">
-                             <img src="slide3.png" style="width: 100%;">
-                          </div>
-                       </div>
-                       <div class="slide slide_4">
-                          <div class="slide-content">
-                             <img src="slide4.png" style="width: 100%;">
-                          </div>
-                       </div>
-                    </div>
-                 </div>
-              </div>
-              <div id="controls">
-                 <label for="slide1"></label>
-                 <label for="slide2"></label>
-                 <label for="slide3"></label>
-                 <label for="slide4"></label>
-              </div>
-              <div id="bullets">
-                 <label for="slide1"></label>
-                 <label for="slide2"></label>
-                 <label for="slide3"></label>
-                 <label for="slide4"></label>
-              </div>
-           </div>
 
-            <div class="button" style="text-align: center;">
-              <button style="border-radius: 15px; margin: 30px;"><a href="http://www.quiz-maker.com/QX78AAPI " target="_blank">Desafio</a></button>
-              <button style="border-radius: 15px; margin: 30px;"><a href="#" target="_blank">Infográfico</a></button>
-              <button style="border-radius: 15px; margin: 30px;"><a href="#" target="_blank">Slides</a></button>
            
+            
+            <div class="button" style="text-align: center;">
+              <button style="border-radius: 15px; margin: 30px;"><a href="http://www.quiz-maker.com/QX78AAPI " target="_blank"><b>Desafio 1</b></a></button>
+              
+              <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black" style="border-radius: 15px; margin: 30px; font-size: 20px; font-family: Helvetica;">Desafio 2</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2 style="text-align: left;">Desafio 2: Construção de plano de aula</h2>
+      </header>
+      <div class="w3-container" style="text-align: left;">
+        <p>Após fazer a leitura no Módulo 1 e conhecer as principais
+          Metodologias Ativas, você pode refletir sobre
+          características presentes nelas e relacionar algumas com
+          a sua prática escolar. Certo?</p>
+
+        <p>Para aprofundar a reflexão no seu contexto escolar, você
+          terá como desafio criar um plano de aula, de até duas
+          folhas, utilizando uma delas.
+          Para isso você deverá:</p>
+
+          <p>- Escolher um tema.<br>
+            - Delimitar o público alvo.<br>
+            - Escolher a metodologia Ativa que irá utilizar e detalhar os
+            passos dela no plano de aula.<br>
+            - Descrever uma estratégia que pretende usar.</p>
+
+            <p>Após construir o plano de aula, você poderá aplicá-lo com
+              a sua turma e observar como foi a experiência com
+              Metodologia Ativa que você escolheu, junto aos seus
+              alunos. </p>
+            <p>Bom trabalho!</p>
+      </div>
+      <footer>
+
+      </footer>
+    </div>
+  </div>
+</div>
+
+
+
             </div>
 
             <details>
-              <summary>Referências</summary>
+              <summary style="font-size: 20px;"><b>Referências</b></summary>
               <p>BACICH, Lilian; MORAN, José. Metodologias ativas para uma educação inovadora: uma abordagem teórico-prática. Porto Alegre: Penso, 2018.</p>
               <p>CAMARGO, Fausto; DAROS, Thuinie. A sala de aula inovadora: estratégias pedagógicas para fomentar o aprendizado ativo. Porto Alegre: Penso, 2018.</p>
               <p>GADOTTI, Moacir. História das ideias pedagógicas. São Paulo: Ática, 2005.</p>
@@ -199,12 +206,22 @@
       
         </div> 
     </div>
-       
-      
+    <br>
+    <div style="text-align: center;">
+    <ul class="pagination">
+      <li><a href="metead.html">Ir para o Módulo 2</a></li>
+    </ul>
+  </div>
+    <br>
 
     <ul class="footer">
         <li><a href="creditos.html"> Créditos </a></li>
         <li><a href="guia.html"> Guia </a></li>
     </ul>
+    <script>
+      $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+    </script>
 </body>
 </html>
