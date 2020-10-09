@@ -63,6 +63,88 @@ p {
   padding: 8px;
 }
 
+.slides {
+  text-align: center;
+
+
+}
+
+#botao1 {
+  background-color:#db6d32;
+  border: white;
+  width: 88px;
+  height: 87px;
+  border-radius: 10%;
+}
+#botao2 {
+  background-color:#f7b40d;
+  border: white;
+  width: 83px;
+  height: 88px;
+  border-radius: 10%;
+}
+
+#botao3 {
+  background-color: #67ba07;
+  border: white;
+  width: 122px;
+  height: 87px;
+  border-radius: 10%;
+}
+#botao4 {
+  background-color: #0bcaaa;
+  border: white;
+  width: 119px;
+  height: 88px;
+  border-radius: 10%;
+  font-size: 14px;
+}
+#botao5 {
+  background-color: #6fb3d8;
+  border: white;
+  width: 77px;
+  height: 86px;
+  border-radius: 10%;
+}
+#botao6 {
+  background-color: #776daa;
+  border: white;
+  width: 88px;
+  height: 87px;
+  border-radius: 10%;
+}
+#botao7 {
+  background-color: #bd34af;
+  border: white;
+  width: 100px;
+  height: 89px;
+  border-radius: 10%;
+}
+#botao8 {
+  background-color: #d52071;
+  border: white;
+  width: 113px;
+  height: 91px;
+  border-radius: 10%;
+  font-size: 14px;
+}
+#botao9 {
+  background-color:#e70606;
+  border: white;
+  width: 136px;
+  height: 90px;
+  border-radius: 10%;
+  font-size: 14px;
+}
+#botao10 {
+  background-color: #6d6d6d;
+  border: white;
+  width: 134px;
+  height: 89px;
+  border-radius: 10%;
+  font-size: 14px;
+}
+
 .imagem {
   text-align: center;
 }
@@ -100,35 +182,6 @@ button:hover {
 .pdf {
   text-align: center;
 }
-
-.slides {
-  text-align: center;
-}
-
-ul.pagination {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-  background-color:#7CCD7C;
-}
-
-ul.pagination li {display: inline;}
-
-ul.pagination li a {
-  color: black;
-  float: left;
-  padding: 8px 16px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-ul.pagination li a.active {
-  background-color: #4CAF50;
-  color: #4CAF50;
-  border-radius: 5px;
-}
-
-ul.pagination li a:hover:not(.active) {background-color: #4CAF50;}
 
 .footer {
     bottom: 0px;
