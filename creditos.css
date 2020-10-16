@@ -7,6 +7,12 @@ body {margin: 0;}
   color: black;
 }
 
+.navbar a:hover {
+color: #c5f0c5;
+}
+
+
+
 p {
   font-family: Helvetica;
   
@@ -26,50 +32,70 @@ h2 h1 {
 .imagens h2 {
   margin: 20px;
 }
+
+.dropdown-item:hover{
+  background-color:  #7CCD7C;
+}
+
+  button:hover {
+    cursor: pointer;
+    background-color:  #c5f0c5;
+  }
+  
 .footer {
-  bottom: 0px;
-  width: 100%;
+      bottom: 0px;
+      width: 100%;
 }
-
-
+    
 ul.footer {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #7CCD7C;
-  font-family: Helvetica;
+      list-style-type: none;
+      margin: 0;
+      padding: 6px;
+      overflow: hidden;
+      background-color: #7CCD7C;
+      font-family: Helvetica;
 }
-
+    
 ul.footer li {float: right;}
-
+    
 ul.footer li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: Helvetica;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: Helvetica;
 }
-
-ul.footer li a:hover:not(.active) {background-color: #90EE90;}
-
+    
+/*ul.footer li a:hover:not(.active) {background-color: #90EE90;}*/
+    
 ul.footer li a.active {background-color: #4CAF50;}
-
+    
 ul.footer li.right {float: right;}
-
+    
 @media screen and (max-width: 600px) {
-  ul.footer li.right, 
-  ul.footer li {float: none;}
+      ul.footer li.right, 
+      ul.footer li {float: none;}
 }
-
+    
 ul li {
-  list-style-type: none;
-  border-left: 1px solid black;
-  border-right: 0px solid black;
+      list-style-type: none;
+      border-left: 1px solid black;
+      border-right: 0px solid black;
 }
 
-ul li:last-child {
-  border: 0px;
+.footer ul li {
+  list-style-type: none;
+  border-left: 0px solid black;
+  border-right: 1px solid black;
 }
+
+.footer a:hover {
+  color: #c5f0c5;
+}
+
+/*   
+ul li:last-child {
+      border: 0px;
+}*/

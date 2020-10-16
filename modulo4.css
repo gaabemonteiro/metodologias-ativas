@@ -1,78 +1,51 @@
-body {
-  margin: 0;
-  background-color: white;
-}
-
 .navbar {
-  background-color: #7CCD7C;
+    background-color: #7CCD7C;
 }
 .navbar a {
-  color: black;
+    color: black;
 }
 
 .navbar a:hover {
-color: #c5f0c5;
+  color: #c5f0c5;
 }
 
-.conteudo {
-  width: 50%;
-  height: 393px;
-  background-color: white;
-  border: none;
-  border-radius: 10px 10px;
-  float: left;
-  margin-top: 55px;
-}
-
-.cabecalho {
-  font-family: Helvetica;
-  color: black;
-  padding: 20px;
-  margin: auto;
-
+.citacao {
+    background-color: #c5f0c5;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 h1 {
-  text-align: center;
-  font-size: 33px;
+    font-family: Helvetica, "sans-serif";
+    font-size: 35px;
+    text-align: center;
 }
-
-h3 {
-  text-align: center;
-  font-size: 24px;
-}
-
-hr {
-  color: black;
-  width: 60%;
+  
+p {
+      font-family: Helvetica;
+      color: black;
+      font-size: 20px;
+      text-align: justify;
 }
 
 button {
-  background-color: #7CCD7C; 
-  border-radius: 20px;
-  position: relative;
-  margin: 10px;
-  color: black;
-  border: none;
-  font-family: Helvetica;
-  font-size: 20px;
-  width: 425px;
-  height: 72px;
-  font-weight: bold;
-}
-
-.button a {
-  text-decoration: none;
-  color: black;
-  font-family: Helvetica;
-  padding: 10px;
-}
-
-button:hover {
-  cursor: pointer;
-  background-image: linear-gradient(90deg, #f05524, #9fbc44, #008dbb);
-}
-
+    background-color: #7CCD7C;
+    width: 200px;
+    height: 63px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .button a {
+    text-decoration: none;
+    font-family: Helvetica;
+  }
+  
+  button a:link {
+    text-decoration: none;
+  }
+  
 .dropdown-item:hover{
   background-color:  #7CCD7C;
 }
