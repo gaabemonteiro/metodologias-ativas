@@ -14,6 +14,16 @@ body {
 color: black;
 }
 
+i {
+  font-size: 24px;
+  width: 31px;
+}
+@media screen and (min-width: 900px) {
+  html {
+    overflow: hidden;
+  }
+}
+
 @media screen and (max-width: 600px) {
     .navbar ul li {
       list-style-type: none;
