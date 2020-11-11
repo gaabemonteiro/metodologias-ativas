@@ -9,6 +9,11 @@
 color: black;
 }
 
+i {
+  font-size: 24px;
+  width: 31px;
+}
+
 @media screen and (max-width: 600px) {
     .navbar ul li {
       list-style-type: none;
@@ -34,9 +39,14 @@ color: black;
   .citacao {
     margin: 20px;
   }
+  
 
   summary {
     padding: 10px;
+  }
+
+  .modais {
+    padding: 20px;
   }
 }
 
@@ -55,53 +65,89 @@ color: #c5f0c5;
 .navbar-light .navbar-nav .nav-link:hover {
 color: #c5f0c5;
 }
+
 .citacao {
-    background-color: #c5f0c5;
-    padding: 10px;
-    border-radius: 10px;
+  background-color: #c5f0c5;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 h1 {
-    font-family: Helvetica, "sans-serif";
-    font-size: 35px;
-    text-align: center;
+  font-family: Helvetica, "sans-serif";
+  font-size: 35px;
+  text-align: center;
 }
-  
+
+
 p {
-      font-family: Helvetica;
-      color: black;
-      font-size: 20px;
-      text-align: justify;
+    font-family: Helvetica;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+   
+}
+
+
+
+.botao1 {
+  background-color: #6fb3d8;
+}
+
+
+
+.botao-modais {
+  width: 140px;
+  border: white;
+  height: 100px;
+  border-radius: 10%;
+  padding: 5px;
+  font-size: 20px;
+  box-sizing: border-box;
+  display: inline;
+  vertical-align: middle;
+}
+
+.desafios {
+  text-align: center;
+}
+
+.infografico {
+text-align: center;
 }
 
 button {
-    background-color: #7CCD7C;
-    width: 200px;
-    height: 63px;
-    border-radius: 15px;
-    font-size: 20px;
-    color: black;
-  }
-  
-  .button a {
-    text-decoration: none;
-    font-family: Helvetica;
-  }
-  
-  button a:link {
-    text-decoration: none;
-  }
-  
-.dropdown-item:hover{
-  background-color:  #7CCD7C;
+  background-color: #7CCD7C;
+  width: 200px;
+  height: 63px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: black;
 }
 
-  button:hover {
-    cursor: pointer;
-    background-color:  #c5f0c5;
-  }
+.button a {
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+button a:link {
+  text-decoration: none;
+}
+
+.dropdown-item:hover{
+background-color:  #7CCD7C;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color:  #c5f0c5;
+}
+
+.footer {
+    bottom: 0px;
+    width: 100%;
+}
   
-  ul.footer {
+ul.footer {
     list-style-type: none;
     margin: 0;
     padding: 6px;

@@ -9,6 +9,15 @@
 color: black;
 }
 
+.imagens {
+  text-align: center;
+}
+
+i {
+  font-size: 24px;
+  width: 31px;
+}
+
 @media screen and (max-width: 600px) {
     .navbar ul li {
       list-style-type: none;
@@ -22,6 +31,11 @@ color: black;
     width: 85px;
 }
 
+@media screen and (max-width: 600px) {
+  p {
+    padding: 20px;
+  }
+}
 
 .navbar a:hover {
   color: #c5f0c5;
@@ -38,36 +52,45 @@ color: #c5f0c5;
 .navbar-light .navbar-nav .nav-link:hover {
 color: #c5f0c5;
 }
-p {
-  font-family: Helvetica;
-  
-}
-h2 h1 {
-  font-family: Helvetica;
-}
 
-.container {
-  background-color: white;
-}
-
-.imagens {
+h1 {
+  font-family: Helvetica, "sans-serif";
+  font-size: 35px;
   text-align: center;
 }
 
-.imagens h2 {
-  margin: 20px;
+
+p {
+    font-family: Helvetica;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+   
+}
+
+.button a {
+  text-decoration: none;
+  font-family: Helvetica;
+
+}
+
+button a:link {
+  text-decoration: none;
 }
 
 .dropdown-item:hover{
-  background-color:  #7CCD7C;
+background-color:  #7CCD7C;
 }
 
-  button:hover {
-    cursor: pointer;
-    background-color:  #c5f0c5;
-  }
-  
-  
+button:hover {
+  cursor: pointer;
+  background-color:  #c5f0c5;
+}
+
+.footer {
+    bottom: 0px;
+    width: 100%;
+}
   
 ul.footer {
     list-style-type: none;
