@@ -1,4 +1,6 @@
 .navbar {
+    position: fixed;
+    width: 100%;
     background-color: #7CCD7C;
 }
 .navbar a {
@@ -79,6 +81,7 @@ h1 {
     font-family: Helvetica, "sans-serif";
     font-size: 35px;
     text-align: center;
+    margin-top: 50px;
 }
 
 h2 {
@@ -153,7 +156,7 @@ p {
 
 button {
     background-color: #7CCD7C;
-    width: 200px;
+    width: 170px;
     height: 63px;
     border-radius: 15px;
     font-size: 20px;

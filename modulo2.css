@@ -1,4 +1,6 @@
 .navbar {
+  position: fixed;
+  width: 100%;
   background-color: #7CCD7C;
 }
 .navbar a {
@@ -76,6 +78,7 @@ h1 {
   font-family: Helvetica, "sans-serif";
   font-size: 35px;
   text-align: center;
+  margin-top: 50px;
 }
 
 
@@ -86,13 +89,6 @@ p {
     text-align: justify;
    
 }
-
-
-.botao1 {
-  background-color: #6fb3d8;
-}
-
-
 
 .botao-modais {
   width: 140px;
@@ -106,6 +102,28 @@ p {
   vertical-align: middle;
 }
 
+.botao1 {
+  background-color:#db6d32;
+}
+.botao2 {
+  background-color:#f7b40d;
+}
+.botao3 {
+  background-color: #67ba07;
+}
+.botao4 {
+  background-color: #0bcaaa;
+}
+.botao5 {
+  background-color: #6fb3d8;
+}
+.botao6 {
+  background-color: #776daa;
+}
+.botao7 {
+  background-color: #bd34af;
+}
+
 .desafios {
   text-align: center;
 }
@@ -116,7 +134,7 @@ text-align: center;
 
 button {
   background-color: #7CCD7C;
-  width: 200px;
+  width: 170px;
   height: 63px;
   border-radius: 15px;
   font-size: 20px;
