@@ -42,13 +42,16 @@ i {
     margin: 20px;
   }
   
-
   summary {
     padding: 10px;
   }
 
   .modais {
     padding: 20px;
+  }
+
+  img {
+    width: 100%;
   }
 }
 
@@ -120,7 +123,7 @@ text-align: center;
 
 button {
   background-color: #7CCD7C;
-  width: 200px;
+  width: 170px;
   height: 63px;
   border-radius: 15px;
   font-size: 20px;
