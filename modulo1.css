@@ -53,6 +53,10 @@ i {
     .modais {
       padding: 20px;
     }
+
+    img.postit {
+      width: 80%;
+    }
   }
 
   .navbar a:hover {
@@ -75,6 +79,7 @@ i {
     background-color: #c5f0c5;
     padding: 10px;
     border-radius: 10px;
+    font-size: 18px;
 }
 
 h1 {

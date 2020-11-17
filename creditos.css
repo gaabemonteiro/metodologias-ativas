@@ -35,6 +35,16 @@ i {
   p {
     padding: 20px;
   }
+
+  h4 {
+    padding: 20px;
+  }
+
+  hr {
+    width: 90%;
+  } 
+
+  
 }
 
 .navbar a:hover {
@@ -66,7 +76,6 @@ p {
     font-family: Helvetica;
     color: black;
     font-size: 15px;
-   
 }
 
 a {
@@ -87,7 +96,6 @@ a:hover {
 .button a {
   text-decoration: none;
   font-family: Helvetica;
-
 }
 
 button a:link {
