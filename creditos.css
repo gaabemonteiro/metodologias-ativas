@@ -56,16 +56,32 @@ color: #c5f0c5;
 h1 {
   font-family: Helvetica, "sans-serif";
   font-size: 35px;
-  text-align: center;
+
 }
 
-
+h1 {
+  text-align: center;
+}
 p {
     font-family: Helvetica;
     color: black;
     font-size: 15px;
-    text-align: justify;
    
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.lattes {
+  width: 63px;
+  height: 33px;
+  font-size: 14px
 }
 
 .button a {
