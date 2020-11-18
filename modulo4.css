@@ -52,6 +52,12 @@ i {
   }
 }
 
+.modal-body-referencia p {
+  font-size: 15px; 
+  color: rgb(73, 70, 70);
+  padding: 20px;
+}
+
 .navbar a:hover {
   color: #c5f0c5;
 }
