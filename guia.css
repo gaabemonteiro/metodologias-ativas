@@ -33,7 +33,15 @@ i {
 
 @media screen and (max-width: 600px) {
   p {
-    padding: 20px;
+    padding: 10px;
+  }
+
+  h5 {
+    padding: 10px;
+  }
+
+  li {
+    padding: 10px;
   }
 }
 
