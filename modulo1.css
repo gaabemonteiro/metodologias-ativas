@@ -106,6 +106,14 @@ p {
      
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7CCD7C;
+}
+
 .td {
     padding: 8px;
 }

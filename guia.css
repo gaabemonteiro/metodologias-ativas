@@ -76,6 +76,15 @@ p {
    
 }
 
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7CCD7C;
+}
+
 .button a {
   text-decoration: none;
   font-family: Helvetica;

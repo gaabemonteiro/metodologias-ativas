@@ -95,6 +95,14 @@ h3 {
   margin-top: 50px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7CCD7C;
+}
+
 p {
     font-family: Helvetica;
     color: black;
