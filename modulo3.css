@@ -107,13 +107,18 @@ p {
    
 }
 
+.td {
+  padding: 8px;
+  text-align: justify;
+}
 
+th, td {
+border: 1px solid black;
+}
 
 .botao1 {
   background-color: #6fb3d8;
 }
-
-
 
 .botao-modais {
   width: 140px;
